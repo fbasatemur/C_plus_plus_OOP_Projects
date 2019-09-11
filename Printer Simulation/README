@@ -1,4 +1,4 @@
-# Bu ornek projede bizden istenilen bir pc-printer iliskisini Circularly Linked List kullanarak kodlanmasidir.
+#Bu ornek projede bizden istenilen bir pc-printer iliskisini Circularly Linked List kullanarak kodlanmasidir.
 Anlatimak istenilen PC- Printer iliskisine biraz isik tutarsak; 
 
 Oncelikli olarak, PC ye bağli yazicida cikti alirken PC den gonderilen belgeler yazici kuyrugunda birikmektedir. 
