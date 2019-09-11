@@ -1,10 +1,13 @@
-#Bu ornek projede bizden istenilen bir pc-printer iliskisini Circularly Linked List kullanarak kodlanmasidir.
+--------------------------------------------------------------------------------------------------------------
+Bu ornek projede bizden istenilen bir pc-printer iliskisini Circularly Linked List kullanarak kodlanmasidir.
+--------------------------------------------------------------------------------------------------------------
 Anlatimak istenilen PC- Printer iliskisine biraz isik tutarsak; 
 
 Oncelikli olarak, PC ye bağli yazicida cikti alirken PC den gonderilen belgeler yazici kuyrugunda birikmektedir. 
 PC bu belgeleri bu kuyruga iter, printer ise isi bittiginde bu kuyruktan sirasiyla belge alir ve yazdirir.
+--------------------------------------------------------------------------------------------------------------
 
-Tum simulasyon islemi bu kadardir.Simdi ise bu islemlerin kisitlamalarindan bahsedelim:
+Tum simulasyon islemi bu kadardir. Simdi ise bu islemlerin kisitlamalarindan bahsedelim:
 
 * Kuyrukta biriken belge miktari kod icerisnde CAPACITY sabiti ile belirlenmistir.
 * PC istenilen surede kuyruga belge aktarabilir(blue line), printer ise istenilen surede kuyruktan belge okuyabilir(green line). 
