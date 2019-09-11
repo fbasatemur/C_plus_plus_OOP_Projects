@@ -30,3 +30,7 @@ Ayrica ek olarak istenilenn operatorleri overload ederek binary goruntude bazi i
 
 * Dosya3 << g3;
 // seklinde elde edilen sonuc goruntu text (0 degeri - ve 1 degeri ise * ) olarak yazilmalidir
+
+Program girdileri 3 adet olamalidir. Tipik bir program calistirma komutu ve parametreler asagideki sekilde olmalidir:
+
+$>./ Source.exe image1.bin image2.bin fileout.txt
