@@ -1,0 +1,24 @@
+------------------------------------------------------------------------------------------------------------------------
+Computer Vision islemlerinde en temel islemlerin biri kenar tespitidir.
+Bizden Gri bir goruntuden kenar bilgisi cikaran Object Oriented bir program kodlamamiz istenmektedir.
+Ayrica ek olarak istenilenn operatorleri overload ederek binary goruntude bazi islemleri yerine getirmemiz istenmektedir.
+-------------------------------------------------------------------------------------------------------------------------
+
+* image1 >> g1;  
+* image2 >> g2; // seklinde image1 ve image2 binary dosyalarinden, g1 ve g2 nesnelerine goruntu bilgileri aktarilmalidir.
+// Dosyadan ilk okunan byte goruntu yuksekligi, ikinci okunan byte ise goruntu genisligi ve diger her bir byte ise binary goruntunun parlaklik degerleridir. 
+
+* g1.sobel();
+* g2.sobel(); // ile her bir goruntu uzerinde sobel filtresi gezdirme islemi uygulanir.
+
+* g1.threshold(100);
+* g2.threshold(100); // esik degerinden az olanlar 0; fazla olanlar ise 1 olarak ayarlanarak goruntu binary formata donusturulur.
+
+* Goruntu g3;
+* g3 = g1 + g2;   // OR
+* g3 = g1 * g2;   // AND
+* g3 = !g3;       // NOT
+// binary goruntuler uzerinde 3 adet binary image operations yapilabilmelidir.
+
+* Dosya3 << g3;
+// seklinde elde edilen sonuc goruntu text (0 degeri - ve 1 degeri ise * ) olarak yazilmalidir
