@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <fstream>
 #include <math.h>
 
@@ -242,15 +242,18 @@ void Image::sobel()
 	}
 }
 
-int main()
+int main(int argc, char *argv[])		// $> ./ Source.exe image1.bin image2.bin fileout.txt  
 {
 	Image I1, I2;
 	ifstream File1, File2;
+	char* filenames[3];
+	for (int i = 1; i < argc; i++)
+		filenames[i-1] = argv[i];
 
-	File1.open("image1.bin", ios::binary);
+	File1.open(filenames[0], ios::binary);
 	File1 >> I1;
 
-	File2.open("image2.bin", ios::binary);
+	File2.open(filenames[1], ios::binary);
 	File2 >> I2;
 
 	I1.sobel();
@@ -261,12 +264,12 @@ int main()
 
 	Image I3;
 	ofstream File3;
-	File3.open("fileout.txt", ios::out);
+	File3.open(filenames[2], ios::out);
 
 	// I3 = I1 + I2;
 	// I3 = I1 * I2;
 	// I3 = !I1;
-	I3 = I1;
+	 I3 = I1;
 
 	File3 << I3;
 
