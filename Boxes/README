@@ -1,0 +1,13 @@
+---------------------------------------------------------------------------------------
+2D bir uzayda sinirlari belirli dikdortgen bir bolge tanimlandigini dusunelim.
+Bu uzayin tamamen ici bos ve herhangi bir kutleye sahip olamadigini dusunelim.
+Iste bu uzay icerisine birden fazla dikdortgen seklinde kutular yerlestirmek istiyoruz.
+---------------------------------------------------------------------------------------
+
+* Uzaya yerlestirilecek tum dikdorgenler ayni yogunlukta olacak ( 1*1 boyutunda dikdortgen kutlesi 1 ise; 3*1 boyutunda dikdortgen kutlesi 3 olmali )
+* Dikdortgenler eksenlere dik olarak yerlestirilmeli
+* Dikdortgenler ilk seferde yerlestirilemiyor ise ikinci seferde rotation (1 olarak ifade edilir) yapilarak tekrar denenmeli ( 3*1 boyutunda kutu yerlestirilemediyse, 1*3 olarak tekrar denenmeli )
+* Uzaya yerlestirilecek nesnelerin alani uzayin alanidan az olmali
+* PC nesnelerin boyutlari tahmin edecek ve uygun kordinatlara yerlestirecektir.
+
+Kutular uzaya yerlestirilidikten sonra kutularin baslangic ve bitis noktalari, uzayin agirlik merkezi ekrana ve  bir dosyaya yazdirilacak.
